@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RestController
 class SampleController {
     @GetMapping("/")
     fun index(): List<Message> = listOf(
-            Message("1", "Hello!"),
-            Message("2", "Bonjour!"),
-            Message("3", "Privet!"),
+        Message("1", "Hello!"),
+        Message("2", "Bonjour!"),
+        Message("3", "Privet!"),
     )
 }
