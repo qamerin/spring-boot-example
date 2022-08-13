@@ -31,3 +31,10 @@ build/
 
 ### VS Code ###
 .vscode/
+
+## Other
+.DS_Store
+
+## database
+.db_admin_name.txt
+.db_admin_pwd.txt
